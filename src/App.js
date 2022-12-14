@@ -10,7 +10,6 @@ function App() {
   return (
     <div className="App">
       <Title />
-      <div className="horizontal-line"></div>
       <NavBar />
       <div className="container">
         <Slider />

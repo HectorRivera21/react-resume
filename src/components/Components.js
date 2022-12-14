@@ -1,4 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { FaJsSquare, FaPython, FaDatabase, FaCode } from "react-icons/fa";
 export const ContactInfo=()=>{
 	return(
 		<div className='pr-0 ContactInfo'>
@@ -31,10 +32,22 @@ export const Skills = () => {
     return (
       <div className="Skills">
         <h3>Languages</h3>
-				<li className = 'list-group-item'>JavaScript</li>
-				<li className = 'list-group-item'>Python</li>
-				<li className = 'list-group-item'>C++</li>
-				<li className = 'list-group-item'>SQL</li>
+				<li className = 'list-group-item'>
+					<FaJsSquare />
+					<span>JavaScript</span>
+				</li>
+				<li className = 'list-group-item'>
+					<FaPython />
+					<span>Python</span>
+				</li>
+				<li className = 'list-group-item'>
+					<FaCode />
+					<span>C++</span>
+				</li>
+				<li className = 'list-group-item'>
+					<FaDatabase />
+					<span>SQL</span>
+				</li>
       </div>
     );
 };
