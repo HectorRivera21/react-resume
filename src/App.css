@@ -11,9 +11,19 @@ html{
 .horizontal-line{
   border-top: 2px solid black;
   width: 100%;
-  margin: 2rem 0;
+  margin: 1rem 0;
+}
+span{
+  display: 'block';
 }
 #ResumeTitle
 {
+  padding-top: 5px;
+  padding-bottom: 0;
   color: black;
+}
+.container
+{
+  margin:auto;
+  padding-top: 20%;
 }
