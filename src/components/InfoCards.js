@@ -2,22 +2,21 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { FaJsSquare, FaPython, FaDatabase, FaCode, FaEnvelope, FaPhoneSquareAlt, FaAddressBook } from "react-icons/fa";
 export const ContactInfo=()=>{
 	return(
-		<div className='pr-0 ContactInfo'>
+		<div className='ContactInfo'>
 			<li className = 'list-group-item'>
 				<FaPhoneSquareAlt />
-				PhoneNumber: 
 				<span>
-					(956) 422 - 0933
+					PhoneNumber: (956)422-0933
 				</span>
 			</li>
 			<li className = 'list-group-item'>
-				<FaEnvelope />Email:
+				<FaEnvelope />
+				<span>Email: </span>
 				<a href="mailto:redmagix2000@gmail.com">
-					<span>
-						redmagix2000@gmail.com
-					</span>
+					redmagix2000@gmail.com
 				</a>
 			</li>
+			<span/>
 			<li className = 'list-group-item'>
 				<FaAddressBook />
 				<span>
