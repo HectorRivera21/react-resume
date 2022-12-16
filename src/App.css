@@ -11,14 +11,6 @@ html{
 span{
   display: 'block';
 }
-#ResumeTitle
-{
-  background-color: #313639;
-  padding-top: 5px;
-  padding-bottom: 0;
-  color: black;
-  border-bottom: 2px solid black;
-}
 .container
 {
   margin: auto;

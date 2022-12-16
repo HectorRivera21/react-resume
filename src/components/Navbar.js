@@ -5,6 +5,9 @@ export const NavBar = () =>{
         <nav>
             <div>
                 <ul id="navbar">
+                    <li id = "resumetitle">
+                        <h1 >Hector's Resume</h1>
+                    </li>
                     <li>
                         <a  href="https://www.linkedin.com/in/hector-rivera-651b04255/">
                             <FaLinkedin />
