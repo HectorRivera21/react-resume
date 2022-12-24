@@ -1,5 +1,5 @@
 import { Component } from "react";
-import { FaLinkedin, FaInstagramSquare, FaGithubSquare, FaTwitter ,FaFire } from "react-icons/fa";
+import { FaLinkedin, FaInstagramSquare, FaGithubSquare, FaTwitter ,FaFire, FaClipboardList } from "react-icons/fa";
 import "./Components.css";
 class NavBar extends Component{
     state = {clicked: false};
@@ -58,6 +58,14 @@ class NavBar extends Component{
                                 <FaFire />
                                 <span>
                                     FireBase
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://hector-todo-list-firebase.web.app/">
+                                <FaClipboardList />
+                                <span>
+                                    To-doList
                                 </span>
                             </a>
                         </li>
